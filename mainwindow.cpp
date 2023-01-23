@@ -105,14 +105,6 @@ void MainWindow::on_pushButton_8_clicked()
         ui->ossEdit->setText(n1); ui->osfEdit->setText(n1); ui->anamEdit->setPlainText(n1); ui->diagEdit->setPlainText(n1);
         ui->stackedWidget_2->setCurrentIndex(0);
 
-
-//        QSqlQuery sql("INSERT INTO patients ('date','fio','complaints','od','os','anam','diagnos') VALUES('"+ui->dateEdit->text()+"','"+ui->nameEdit->text()+
-//                    " " + ui->snameEdit->text() +" "+ui->mnameEdit->text()+"','"+ui->comEdit->toPlainText()+"','С:"+ui->comEdit->toPlainText()+" До: "+ui->odfEdit->text()+
-//                    "','C: "+ui->odsEdit->text()+"До: "+ui->odfEdit->text()+"','"+ui->anamEdit->toPlainText()+"','"+ui->diagEdit->toPlainText()+"');");
-
-//        db.exec("INSERT INTO patients ('date','fio','complaints','od','os','anam','diagnos') VALUES('"+ui->dateEdit->text()+"','"+ui->nameEdit->text()+
-//                " " + ui->snameEdit->text() +" "+ui->mnameEdit->text()+"','"+ui->comEdit->toPlainText()+"','С:"+ui->comEdit->toPlainText()+" До: "+ui->odfEdit->text()+
-//                "','C: "+ui->odsEdit->text()+"До: "+ui->odfEdit->text()+"','"+ui->anamEdit->toPlainText()+"','"+ui->diagEdit->toPlainText()+"');");
 }
 
 
